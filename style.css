@@ -1,0 +1,104 @@
+body {
+    user-select: none;
+    background-image: url("Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav div {
+    align-content: center;
+    display: flex;
+    text-align: right;
+}
+
+#nav a {
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#nav a :hover {
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+#nav a img {
+    padding: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#logo {
+    padding: 20px;
+    font-family: 'Product Sans', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+}
+
+#search-box:hover {
+    cursor: auto;
+}
+
+#search-box {
+    border: none;
+    justify-content: center;
+    padding: 10px;
+    height: 1.2rem;
+    width: 450px;
+    border-radius: 32px;
+    box-shadow: 5px black;
+}
+
+
+
+#shortcut {
+    margin: 20px;
+    background: transparent;
+    text-align: center;
+}
+
+#shortcut button {
+    border: none;
+    margin: 20px;
+    background: transparent;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+
+#shortcut img {
+    border-radius: 50%;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+
+#shortcut button:hover {
+    background-color: black;
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+
+#link a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
